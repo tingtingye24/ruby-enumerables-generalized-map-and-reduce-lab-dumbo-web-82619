@@ -8,7 +8,14 @@ def map(array)
 end
 
 def reduce(array, start = nil)
-  if start = 
+  if start
+    final = sp
+  else 
+    final = array[0]
+    array.unshift
+  end
   array.each do |n|
-    
-    
+    final = yield(final, n)
+  end
+  final
+end
