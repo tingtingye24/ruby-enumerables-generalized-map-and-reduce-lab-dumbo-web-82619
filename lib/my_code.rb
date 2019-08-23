@@ -12,7 +12,7 @@ def reduce(array, start = nil)
     final = sp
   else 
     final = array[0]
-    array.unshift
+    array.shift
   end
   array.each do |n|
     final = yield(final, n)
