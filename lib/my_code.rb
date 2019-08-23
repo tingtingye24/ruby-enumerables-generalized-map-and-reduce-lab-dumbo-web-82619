@@ -7,6 +7,8 @@ def map(array)
   newarray
 end
 
-def reduce(array)
+def reduce(array, start = nil)
+  if start = 
   array.each do |n|
+    
     
