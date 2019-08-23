@@ -7,7 +7,7 @@ def map(array)
   newarray
 end
 
-def reduce(array, start = nil)
+def reduce(array, start = 0)
   if start
     final = sp
   else 
