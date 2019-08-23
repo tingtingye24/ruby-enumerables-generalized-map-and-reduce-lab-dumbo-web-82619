@@ -9,7 +9,7 @@ end
 
 def reduce(array, start = NIL)
   if start
-    final = sp
+    final = start
   else 
     final = array[0]
     array.shift
